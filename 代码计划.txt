@@ -1,0 +1,72 @@
+string{
+	kmp
+	exkmp
+	manacher
+	acam
+	sa
+	sam
+	pam
+}
+math{
+	高斯消元
+	EulerSieve
+	杜教筛
+	MillerRabin
+	PolladRho
+	Polya
+	FFT
+	NTT
+	FWT
+	FMT
+	线性递推
+	BSGS
+	Lucas
+	SG
+    中国剩余定理
+    欧拉定理
+    扩展欧几里得
+    莫比乌斯反演
+    自适应simpson积分
+}
+data structure{
+	fhq treap
+	splay
+	树剖
+	BIT
+	LCT
+	点分治
+	KDT
+	CDQ分治
+	莫队
+	线性基-交
+	主席树
+	划分树
+}
+graph theory{
+	最短路
+	最小生成树
+	次小生成树
+	k短路
+    tarjan
+    笛卡尔树
+    斯坦纳树
+    虚树
+    dinic
+    费用流
+    一般图匹配 带花树
+    匈牙利
+    hopcroft-carp
+	km
+	2-sat
+	LCA
+	全局最小割
+	支配树
+	最小割树
+}
+其他{
+	背包
+	凸包
+	ST表
+	最小圆覆盖
+	插头DP
+}
