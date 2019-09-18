@@ -2,6 +2,8 @@
 
 洛谷模板：出现次数$$\times $$长度最大值
 
+支持多组数据，根为$1$ 
+
 ```cpp
 #include<bits/stdc++.h>
 typedef long long ll;
@@ -15,9 +17,14 @@ void add(int a,int b){e[++cnt].e=b;e[cnt].n=hd[a];hd[a]=cnt;}
 struct SAM{
 	int tr[N<<1][P],fa[N<<1],len[N<<1],siz[N<<1];
 	int cnt,last;
-	void init(){cnt=last=1;}//dont forget!!!
+	void init(){//dont forget!!!
+        cnt=last=1;
+        memset(tr[1],0,sizeof(tr[1]));
+		fa[1]=len[1]=0;
+    }
 	void add(int c){
 		int p=last,np=++cnt;
+        memset(tr[cnt],0,sizeof(tr[cnt]));
 		siz[np]=1;
 		last=np;
 		len[np]=len[p]+1;
