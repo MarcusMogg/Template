@@ -41,6 +41,6 @@
     * [费用流](图论/费用流.md)
     * [Dijkstra](图论/dijkstra.md)
     * [SPFA](图论/spfa.md)
-    * [Kruskal](图论/kruskal.md)
+    * [Prim](图论/prim.md)
 * 其他
     * [01分数规划](其他/01分数规划.md)
