@@ -18,6 +18,8 @@
     * [拉格朗日插值](数学/拉格朗日插值.md)
     * [类欧几里得算法](数学/类欧几里得算法.md)
     * [高斯消元](数学/高斯消元.md)
+    * [二维几何](二维几何.md)
+    * [三维几何](三维几何.md)
 * String
     * [KMP](String/kmp.md)
     * [ExKMP](String/exkmp.md)
@@ -45,5 +47,6 @@
     * [Dijkstra](图论/dijkstra.md)
     * [SPFA](图论/spfa.md)
     * [Prim](图论/prim.md)
+    * [斯坦纳树](斯坦纳树.md)
 * 其他
     * [01分数规划](其他/01分数规划.md)
